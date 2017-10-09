@@ -1,16 +1,14 @@
 
 
 var movie = require("./movie");
-var threeFavoriteMovies = [];
-	threeFavoriteMovies.push("lilo+and+stitch+movie");
-	threeFavoriteMovies.push("wallie+movie");
-	threeFavoriteMovies.push("up+movie");
+var threeFavoriteMovies = ["lilo+and+stitch+movie", "wallie+movie", "up+movie"];
+	
 
 	
 
-threeFavoriteMovies.forEach(function (film){
+threeFavoriteMovies.forEach(function (res, require){
   // your code here
-
-  console.log(film);
+  movie(threeFavoriteMovies);
+  console.log(threeFavoriteMovies);
 
 });
