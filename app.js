@@ -8,9 +8,9 @@ var threeFavoriteMovies = [];
 
 	
 
-threeFavoriteMovies.forEach(function(film){
+threeFavoriteMovies.forEach(function (film){
   // your code here
-  
-  console.log(movie);
+
+  console.log(film);
 
 });
