@@ -6,9 +6,9 @@ var threeFavoriteMovies = ["lilo+and+stitch+movie", "wallie+movie", "up+movie"];
 
 	
 
-threeFavoriteMovies.forEach(function (res, require){
+threeFavoriteMovies.forEach(function (film){
   // your code here
-  movie(threeFavoriteMovies);
-  console.log(threeFavoriteMovies);
+  movie(film);
+  //console.log(movieTitle);
 
 });
